@@ -1,0 +1,37 @@
+<div class="demo-header">
+  <h1>Real-Time Data Sharing Demo</h1>
+  <p>Shared form on top, listings below - both apps share the same UserService!</p>
+</div>
+
+<!-- Top Section - Shared Form -->
+<div class="form-section">
+  <div class="form-header">
+    <h3>Add / Edit User Form</h3>
+  </div>
+  <div class="form-content">
+    <app-user-form-simple></app-user-form-simple>
+  </div>
+</div>
+
+<!-- Bottom Section - Listings -->
+<div class="listings-container">
+  <!-- Left Side - Host App Cards -->
+  <div class="left-panel">
+    <div class="panel-header host-header">
+      <h3>Host App - User Cards</h3>
+    </div>
+    <div class="panel-content">
+      <app-user-cards></app-user-cards>
+    </div>
+  </div>
+
+  <!-- Right Side - Remote App Table -->
+  <div class="right-panel">
+    <div class="panel-header remote-header">
+      <h3>Remote App - User Table</h3>
+    </div>
+    <div class="panel-content">
+      <app-user-table></app-user-table>
+    </div>
+  </div>
+</div>
