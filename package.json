@@ -6,10 +6,10 @@
     "start": "ng serve",
     "start:host": "ng serve host --port 4200",
     "start:remote": "ng serve remote --port 4201",
-    "build": "ng build",
+    "build": "npx ng build shared-lib && npx ng build host",
     "build:host": "ng build host",
     "build:remote": "ng build remote",
-    "build:shared": "ng build shared-lib",
+    "build:shared": "npx ng build shared-lib",
     "test": "ng test",
     "lint": "ng lint"
   },

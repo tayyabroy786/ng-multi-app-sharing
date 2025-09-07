@@ -15,5 +15,5 @@
       "dest": "/index.html"
     }
   ],
-  "buildCommand": "npm run build:shared && ng build host"
+  "buildCommand": "npm run build"
 }
