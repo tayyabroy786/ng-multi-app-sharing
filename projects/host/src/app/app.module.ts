@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { DemoComponent } from './demo/demo.component';
 import { UserFormSimpleComponent } from './user-form-simple/user-form-simple.component';
 import { UserCardsComponent } from './user-cards/user-cards.component';
-import { UserTableComponent } from './user-table/user-table.component';
+import { RemoteLoaderComponent } from './remote-loader/remote-loader.component';
 import { SharedLibModule } from 'shared-lib';
 
 @NgModule({
@@ -16,7 +16,7 @@ import { SharedLibModule } from 'shared-lib';
     DemoComponent,
     UserFormSimpleComponent,
     UserCardsComponent,
-    UserTableComponent
+    RemoteLoaderComponent
   ],
   imports: [
     BrowserModule,
